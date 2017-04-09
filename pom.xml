@@ -92,7 +92,7 @@
 		<xstream.version>1.4.4</xstream.version>
 		<groovy.version>2.3.3</groovy.version>
         <!--poi 工具类 -->
-        <easypoi.version>2.1.4</easypoi.version>
+        <easypoi.version>2.3.1</easypoi.version>
 		<cxf.version>3.0.2</cxf.version>
 		<!--maven插件变量-->
 		<tomcat.version>2.2</tomcat.version>
@@ -712,7 +712,7 @@
             <version>${poi.version}</version>
         </dependency>
 		<dependency>
-            <groupId>org.jeecgframework</groupId>
+            <groupId>org.jeecg</groupId>
             <artifactId>easypoi-base</artifactId>
             <version>${easypoi.version}</version>
             <exclusions>
@@ -723,7 +723,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.jeecgframework</groupId>
+            <groupId>org.jeecg</groupId>
             <artifactId>easypoi-web</artifactId>
             <version>${easypoi.version}</version>
             <exclusions>
@@ -734,7 +734,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.jeecgframework</groupId>
+            <groupId>org.jeecg</groupId>
             <artifactId>easypoi-annotation</artifactId>
             <version>${easypoi.version}</version>
         </dependency>
