@@ -375,7 +375,7 @@ public class ExcelTempletController extends BaseController {
 	}
 
 
-	private class CgFormExcelHandler extends ExcelDataHandlerDefaultImpl {
+	private class CgFormExcelHandler<T> extends ExcelDataHandlerDefaultImpl<T> {
 
 		Map<String, CgFormFieldEntity> fieldMap;
 
