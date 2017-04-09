@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jeecgframework</groupId>
-	<artifactId>jeecgos</artifactId>
+	<artifactId>jeecg-activiti</artifactId>
 	<version>3.6.6</version>
 	<packaging>war</packaging>
 	<properties>
@@ -17,7 +17,7 @@
 		<hibernate-jpa.version>1.0.1.Final</hibernate-jpa.version>
 
 		<!-- 工作流 -->
-		<activiti.version>5.22</activiti.version>
+		<activiti.version>5.22.0</activiti.version>
 		<mybatis.version>3.4.4</mybatis.version>
 
 		<!-- 辅助依赖包 -->
@@ -793,7 +793,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		<!-- jacob -->
 		<dependency>
@@ -896,7 +896,7 @@
 			<artifactId>cxf-rt-transports-http</artifactId> 
 			<version>${cxf.version}</version> 
 		</dependency>
--->
+		-->
 		<!-- jeecg plugin  -->
 		<dependency>
 			<groupId>org.p3framework</groupId>

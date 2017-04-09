@@ -1,8 +1,8 @@
 package org.jeecgframework.core.common.hibernate.dialect;
 
-import org.hibernate.dialect.PostgreSQLDialect;
+import org.hibernate.dialect.PostgreSQL82Dialect;
 
-public class MyPostgreSQLDialect extends PostgreSQLDialect {
+public class MyPostgreSQLDialect extends PostgreSQL82Dialect {
 
 	
 	public boolean useInputStreamToInsertBlob() {
