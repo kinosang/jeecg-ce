@@ -20,3 +20,17 @@ JEECG 社区版
  * [ ] 用户注册
  * [ ] LDAP 认证
  * [X] Activity 工作流（参照 [Martin404/jeecg-activiti-framework](https://github.com/Martin404/jeecg-activiti-framework)）
+
+## 版权
+
+本项目修改自 [Jeecg](https://git.oschina.net/jeecg/jeecg) 项目的开源部分
+
+	Jeecg 采用 GNU GENERAL PUBLIC LICENSE Version 3 协议
+
+本项额外增加的第三方内容如下：
+
+| 项目名 | 引用方式 | 授权协议 |
+|:-:|:-:|:-:|
+| [EasyPoi](https://git.oschina.net/jueyue/easypoi) | jar 包 | [Apache License](https://git.oschina.net/jueyue/easypoi/raw/master/LICENSE) |
+| [Activiti](https://github.com/Activiti/Activiti) | jar 包 | [Apache License](https://www.activiti.org/about#faq-107--2) |
+| [minidao-pe](https://git.oschina.net/jeecg/minidao-pe) | 源码 | GPL |
