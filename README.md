@@ -1,6 +1,11 @@
 JEECG 社区版
 ====
 
+[![Travis](https://img.shields.io/travis/kinosang/jeecg-ce.svg)](https://travis-ci.org/kinosang/jeecg-ce)
+[![Codecov](https://img.shields.io/codecov/c/github/kinosang/jeecg-ce.svg)](https://codecov.io/gh/kinosang/jeecg-ce)
+[![GitHub release](https://img.shields.io/github/release/kinosang/jeecg-ce.svg)](https://github.com/kinosang/jeecg-ce/releases/latest)
+[![license](https://img.shields.io/github/license/kinosang/jeecg-ce.svg)](https://github.com/kinosang/jeecg-ce/blob/jeecg-ce/LICENSE)
+
 [master](https://github.com/uulm/jeecg-activiti/tree/master) 上游 [OSChina Git](http://git.oschina.net/jeecg/jeecg) 版本 3.6.6
 
 ## 分支简介
